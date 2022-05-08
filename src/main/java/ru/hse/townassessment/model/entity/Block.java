@@ -2,6 +2,7 @@ package ru.hse.townassessment.model.entity;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
@@ -17,7 +18,7 @@ import java.time.LocalDateTime;
 /** Концептуальный блок. */
 @Entity
 @Table(name = "block")
-@Getter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)

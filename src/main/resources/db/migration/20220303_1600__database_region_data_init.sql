@@ -1,0 +1,25 @@
+INSERT INTO d_region (id, code, name) VALUES (1, '57', 'Пермский край');
+
+INSERT INTO d_town (id, code, name, region_id) VALUES (1, '57405000000', 'Александровск', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (2, '57212501000', 'Верещагино', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (3, '57214501000', 'Горнозаводск ', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (4, '57412000000', 'Гремячинск', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (5, '57415000000', 'Губаха', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (6, '57416000000', 'Добрянка', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (7, '57418000000', 'Кизел', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (8, '57226501000', 'Красновишерск', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (9, '57420000000', 'Краснокамск', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (10, '57421000000', 'Кудымкар', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (11, '57422000000', 'Кунгур', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (12, '57427000000', 'Лысьва', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (13, '57234501000', 'Нытва', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (14, '57240501000', 'Оса', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (15, '57242501000', 'Оханск', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (16, '57244501000', 'Очер', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (17, '57430000000', 'Соликамск', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (18, '57253501000', 'Усолье', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (19, '57435000000', 'Чайковский', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (20, '57256501000', 'Чердынь', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (21, '57220504000', 'Чермоз', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (22, '57257501000', 'Чернушка', 1);
+INSERT INTO d_town (id, code, name, region_id) VALUES (23, '57440000000', 'Чусовой', 1);
